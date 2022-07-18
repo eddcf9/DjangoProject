@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Local Cinema Home</h1>
+
+  <p>Welcome to <em>LocalCinema</em>, a very basic Django website developed as a tutorial example on the Mozilla Developer Network.</p>
+
+<h2>Dynamic content</h2>
+
+  <p>The Movies has the following record counts:</p>
+  <ul>
+    <li><strong>Movies:</strong> {{ num_movies }}</li>
+    <li><strong>Remake:</strong> {{ movie_instances }}</li>
+    <li><strong>Copies available:</strong> {{ disponibles }}</li>
+    <li><strong>Directors:</strong> {{ num_Directors }}</li>
+  </ul>
+
+{% endblock %}
