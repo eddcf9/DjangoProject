@@ -1,3 +1,3 @@
 # DjangoProject
 
-- Ejemplo de una app muy basica con Django
+- Ejemplo de una app basica con Django
